@@ -12,6 +12,9 @@
 		1B2DF2BE1BE8B02B00AD5B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2DF2BC1BE8B02B00AD5B56 /* Main.storyboard */; };
 		1B2DF2C01BE8B02B00AD5B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B2DF2BF1BE8B02B00AD5B56 /* Assets.xcassets */; };
 		1B2DF2C31BE8B02B00AD5B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2DF2C11BE8B02B00AD5B56 /* LaunchScreen.storyboard */; };
+		1B2DF2CB1BE8B16F00AD5B56 /* meijer-storefront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B2DF2CA1BE8B16F00AD5B56 /* meijer-storefront.jpg */; };
+		1BBAF4E41BEB865D006257C1 /* ActivityIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BBAF4E21BEB865D006257C1 /* ActivityIndicatorView.xib */; };
+		1BBAF4E51BEB865D006257C1 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBAF4E31BEB865D006257C1 /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		1B2DF2BF1BE8B02B00AD5B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B2DF2C21BE8B02B00AD5B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B2DF2C41BE8B02B00AD5B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B2DF2CA1BE8B16F00AD5B56 /* meijer-storefront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "meijer-storefront.jpg"; sourceTree = "<group>"; };
+		1BBAF4E21BEB865D006257C1 /* ActivityIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityIndicatorView.xib; sourceTree = "<group>"; };
+		1BBAF4E31BEB865D006257C1 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		1B2DF2B71BE8B02B00AD5B56 /* blurr */ = {
 			isa = PBXGroup;
 			children = (
+				1B2DF2CA1BE8B16F00AD5B56 /* meijer-storefront.jpg */,
 				1B2DF2B81BE8B02B00AD5B56 /* AppDelegate.swift */,
 				1B2DF2BA1BE8B02B00AD5B56 /* ViewController.swift */,
 				1B2DF2BC1BE8B02B00AD5B56 /* Main.storyboard */,
+				1BBAF4E21BEB865D006257C1 /* ActivityIndicatorView.xib */,
+				1BBAF4E31BEB865D006257C1 /* ActivityIndicator.swift */,
 				1B2DF2BF1BE8B02B00AD5B56 /* Assets.xcassets */,
 				1B2DF2C11BE8B02B00AD5B56 /* LaunchScreen.storyboard */,
 				1B2DF2C41BE8B02B00AD5B56 /* Info.plist */,
@@ -123,9 +132,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BBAF4E41BEB865D006257C1 /* ActivityIndicatorView.xib in Resources */,
 				1B2DF2C31BE8B02B00AD5B56 /* LaunchScreen.storyboard in Resources */,
 				1B2DF2C01BE8B02B00AD5B56 /* Assets.xcassets in Resources */,
 				1B2DF2BE1BE8B02B00AD5B56 /* Main.storyboard in Resources */,
+				1B2DF2CB1BE8B16F00AD5B56 /* meijer-storefront.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B2DF2BB1BE8B02B00AD5B56 /* ViewController.swift in Sources */,
+				1BBAF4E51BEB865D006257C1 /* ActivityIndicator.swift in Sources */,
 				1B2DF2B91BE8B02B00AD5B56 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +297,7 @@
 				1B2DF2C91BE8B02B00AD5B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
